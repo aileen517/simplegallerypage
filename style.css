@@ -1,0 +1,23 @@
+body{
+	background-color:#011611;
+	color: #c2d6d3;
+}
+
+.gallery{
+	display: block;
+	text-align: center;
+}
+
+.gallery   .images{
+	display: flex;
+	justify-content:  space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 900px;
+}
+.gallery .images img{
+	width: 290px;
+	border-radius: 5px;
+	border: 3px solid #bccfc8;
+	margin-bottom: 5px;
+}
